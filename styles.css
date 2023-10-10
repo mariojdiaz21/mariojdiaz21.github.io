@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
+
+html{
+  height:100%;
+}
+header{
+   background-image: url("/Archivos progra/Media/fondoheader.jpg");
+   margin-bottom:0;
+}
+header img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:15px;
+    vertical-align: middle;
+}
+body{
+    margin:0;
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+}
+
+
+
+.titulo{
+  display:inline;
+   vertical-align:middle;
+   margin-left:25%;
+   background-color:rgb(216, 195, 195, .91);
+   border-radius:10%;
+   font-family: 'Sedgwick Ave Display', cursive;
+   font-size:75px;
+
+}
+@media screen and (max-width:700px){
+    .titulo{
+      display:inline-block;
+        white-space: nowrap;
+        color:rgb(218, 114, 28);
+        font-size:50px;
+        margin-left:10px;
+    }
+}
+
+.pie-pagina{
+    width: 100%;
+  background-color:rgb(141, 118, 92, .4);
+   position:absolute;
+   bottom:0;
+   justify-content: space-between;
+ 
+}
+
+.follow{
+    justify-content:left;
+    font-family: 'Bona Nova', serif;
+    margin-left:50px;
+    
+}
+ .redes a{
+   color:rgb(185, 184, 226);
+   text-decoration:none;
+   font-size: 28px;
+   background-color:rgb(71, 50, 50);
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   text-align:center;
+   padding:6px;
+   line-height: 40px;
+   margin-left:20px;
+ }
+ 
+ .grupo-2{
+    font-size:25px;
+    font-family: 'Bona Nova', serif;
+    margin-top:10px;
+  
+ }
+ .pie-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.redes {
+ 
+  align-items: center;
+  margin-right: 0px; /* Espacio entre las redes sociales y el bloque de información */
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px; /* Espacio entre los bloques de información */
+}
+.edit h2{
+  font-family: 'Bona Nova', serif;
+  margin-left:4px;
+}
+.edit li{
+  font-family: 'Bona Nova', serif;
+  font-size:25px;
+  margin-left:4px;
+}
+.edit2 h2{
+  font-family: 'Bona Nova', serif;
+  margin-left:4px;
+}
+.edit2 li{
+  font-family: 'Bona Nova', serif;
+  font-size:25px;
+  margin-left:4px;
+}
+
+article h3{
+  font-size:30px;
+  color: rgb(223, 42, 42, .6);
+  font-family: 'Bona Nova', serif; 
+
+  margin-left:20px;
+}
+article{
+  width:25%;
+  background-color: rgba(68, 82, 207, 0.164);
+margin-top:16px;
+margin-left:8px;
+height:500px;
+border-radius:12px;
+border-style:solid;
+border-color:#eceff3;
+}
+article p{
+text-align: justify;
+  margin-left:10px;
+  margin-right:10px;
+  font-size:18px;
+  font-family: 'Bona Nova', serif; 
+}
+figure img{
+  width:100px;
+  height: 100px;
+}
+figure{
+  width:30%;
+ box-sizing: border-box;
+}
+.body{
+  display:flex; /**Esto no es el cuerpo de la página, es el nombre de una clase (Descripción)**/
+}
+
+.picture{
+  margin-top:20px;
+  width:500px;
+  margin-left:10px;
+  border-radius:20px;
+ height:495px;
+ box-shadow:4px 1px 20px 6px rgba(59, 71, 112, 0.8);
+
+}
+section h3{
+  font-size:30px;
+  color: rgb(223, 42, 42, .6);
+  font-family: 'Bona Nova', serif; 
+  margin-left:45px;
+}
+section p{
+  
+  margin-left:45px;
+    margin-right:10px;
+    font-size:18px;
+    font-family: 'Bona Nova', serif; 
+   text-align:justify;
+    
+    
+  }
+  section{
+    width:25%;
+    background-color: rgba(68, 82, 207, 0.164);
+    border-radius:20px;
+    height:507px;
+    margin-top:16px;
+    margin-left:20px;
+  }
+  
+  section h3{
+    margin-left:14px;
+  }
+  section p{
+    margin-left:14px;
+  }
+  @media screen and(max-width:700px){
+    article{
+      display:block;
+    }
+    section{
+      display:block;
+    }
+    footer{
+      position:absolute;
+      bottom:0;
+      }
+  }
+  
+  footer .edit-2{
+    margin-left:10px;
+  }
+  .extra{
+    background-color: rgba(68, 82, 207, 0.164);
+ width:20.5%;
+  }
+  .redi a{
+    display:list-item;
+    color: rgb(15, 2, 15);
+    text-align:left;
+   margin-top: 4px;
+   margin-left:40px;
+   text-decoration:none;
+   font-size:20px; /**Hacer hover con las anclas, sombra celeste, aumento de tamaño**/
+   font-family: 'Bona Nova', serif; 
+   font-weight: bolder;
+  }
+  
+.redi h4 {
+  color: rgb(223, 42, 42, .6);
+    text-align:left;
+    margin-left:30px;
+    font-size:25px;
+  
+  }
