@@ -132,7 +132,7 @@ article{
   background-color: rgba(230, 46, 92, 0.164);
 margin-top:16px;
 margin-left:8px;
-height:490px;
+height:470px;
 border-radius:12px;
 border-style:solid;
 border-color:#eceff3;
@@ -161,7 +161,7 @@ figure{
   width:500px;
   margin-left:10px;
   border-radius:20px;
- height:495px;
+ height:485px;
  box-shadow:4px 1px 20px 6px rgba(59, 71, 112, 0.8);
 
 }
@@ -185,7 +185,7 @@ section p{
     width:25%;
     background-color: rgba(230, 46, 92, 0.164);
     border-radius:20px;
-    height:490px;
+    height:470px;
     margin-top:16px;
     margin-left:20px;
   }
@@ -215,7 +215,7 @@ section p{
   .extra{
     background-color: rgba(230, 46, 92, 0.164);
  width:20.5%;
- height:490px;
+ height:470px;
   }
   .redi a{
     display:list-item;
