@@ -129,7 +129,7 @@ article h3{
 }
 article{
   width:25%;
-  background-color: rgba(231, 16, 70, 0.164);
+  background-color: rgba(230, 46, 92, 0.164);
 margin-top:16px;
 margin-left:8px;
 height:490px;
@@ -183,7 +183,7 @@ section p{
   }
   section{
     width:25%;
-    background-color: rgba(196, 20, 49, 0.164);
+    background-color: rgba(230, 46, 92, 0.164);
     border-radius:20px;
     height:490px;
     margin-top:16px;
@@ -213,7 +213,7 @@ section p{
     margin-left:10px;
   }
   .extra{
-    background-color: rgba(226, 26, 70, 0.164);
+    background-color: rgba(230, 46, 92, 0.164);
  width:20.5%;
  height:490px;
   }
