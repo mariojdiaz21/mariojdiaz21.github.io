@@ -132,7 +132,7 @@ article{
   background-color: rgba(231, 16, 70, 0.164);
 margin-top:16px;
 margin-left:8px;
-height:500px;
+height:490px;
 border-radius:12px;
 border-style:solid;
 border-color:#eceff3;
@@ -185,7 +185,7 @@ section p{
     width:25%;
     background-color: rgba(196, 20, 49, 0.164);
     border-radius:20px;
-    height:507px;
+    height:490px;
     margin-top:16px;
     margin-left:20px;
   }
@@ -215,6 +215,7 @@ section p{
   .extra{
     background-color: rgba(226, 26, 70, 0.164);
  width:20.5%;
+ height:490px;
   }
   .redi a{
     display:list-item;
